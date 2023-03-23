@@ -12,12 +12,23 @@ Algoritmo onceP
 	Escribir "Ingrese el coeficiente c:";
 	Leer c;
 	Escribir "¿Cual metodo desea utilizar?";
-	Escribir "";
-	Escribir "";
-	X1=(-b+RC(b^2-4*a*c))/(2*a);
-	Escribir x1;
-	x2=(-b-RC(b^2-4*a*c))/(2*a);
-	Escribir x2;
+	Escribir "1. (-b-(b²-4ac))/(2a)";
+	Escribir "2. (-b+(b²-4ac))/(2a)";
+	Leer opc;
+	si opc == 2 Entonces
+		X1=(-b+RC(b^2-4*a*c))/(2*a);
+		Escribir x1;
+	SiNo
+		si opc==1 Entonces
+			x2=(-b-RC(b^2-4*a*c))/(2*a);
+			Escribir x2;
+        SiNo
+			Escribir "¡opcion invalida!";
+		FinSi
+		
+	FinSi
+	
+	
 	
 	
 	
