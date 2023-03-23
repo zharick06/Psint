@@ -6,7 +6,7 @@ Algoritmo primero
 	//Datos ingresados por el usuario 
 	Escribir "Ingresar el primer numero";
 	Leer A;
-	Escribir "Ingresarel segundo numero";
+	Escribir "Ingresar el segundo numero";
 	Leer B;
 	
 	//Proceso 

@@ -13,7 +13,7 @@ Algoritmo octavoP
 	Si dia<=31 & dia>=1 Entonces
 		Escribir"Ingrese el mes en numero";
 		Leer mes;
-		si mes >=13 & mes <= 0 Entonces
+		si mes >=13 | mes <= 0 Entonces
 			
 			Escribir "Mes inexistente";
 			

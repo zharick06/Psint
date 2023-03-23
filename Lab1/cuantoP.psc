@@ -1,4 +1,4 @@
-Algoritmo cuantoP
+Algoritmo cuartoP
 	//Definir variables
 	Definir num Como Real;
 	//Programa que Hace
