@@ -10,12 +10,19 @@ Algoritmo primero
 	Leer B;
 	
 	//Proceso 
+	//si a es mayor b
 	Si A>B Entonces
+		//escribir en pantalla
 		Escribir "El primer numero es mayor que el segundo.";
+	//si no 	
 	SiNo
+		//si b es mayor que a 
 		si B>A Entonces
+			//escribir en pantalla
 			Escribir "El primer numero es menor que el segundo.";
+		//si no los numeros son iguales	
 		SiNo
+			//escribir en pantalla
 			Escribir "Los numeros son iguales.";
 		FinSi
 		
