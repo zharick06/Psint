@@ -1,3 +1,4 @@
+
 Algoritmo octavoP
 	//definir variables
 	Definir dia, mes, ano Como Entero;
