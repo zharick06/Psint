@@ -1,9 +1,6 @@
 Algoritmo Taller
-	
-	
 	Definir Opcion Como Entero;
-	
-	
+
 	Repetir
 		Escribir"";
 		Escribir":::::::::::::::::::::::::::::::::::::::::::::::::::::::";
@@ -154,16 +151,17 @@ Algoritmo Taller
 				Escribir"El valor total a pagar es: ",ValorT,", por la compra de ", Cantidad," Galones";
 				
 			9:
+				//Decir que hace el programa
 				Escribir "Este programa calcula la temperatura segun los voltios (LM35) ";
-				
-				DEfinir Volt, TempeC,TempeF Como Real;
-				
+				//definir las variables
+				Definir Volt, TempeC,TempeF Como Real;
+				//pedir los voltios
 				Escribir "¿Cuantos voltios desea medir?";
 				Leer Volt;
-				
+				//realizar el procedimiento
 				TempeC=Volt/100;
 				TempeF=TempeC*(9/5)+32;
-				
+				//Escribir en pantalla el resultado
 				Escribir "La temperatura de ", Volt, " voltios es: ",TempeC," Celsius y en Fahrenheit es: ", TempeF;
 				
 			10:
